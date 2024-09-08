@@ -36,8 +36,6 @@ public class MessageControllerTest {
         List<MessageResponse> messageResponseList = response.getBody();
         assertNotNull(messageResponseList);
         assertEquals(message, messageResponseList.get(0));
-
-
     }
 
     @Test
